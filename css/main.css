@@ -373,6 +373,9 @@ h6 {
     .owner {
         padding-bottom: 10px;
     }
+    .owner__name {
+        font-size: 25px;
+    }
     .header__nav {
         display: none;
     }
@@ -399,6 +402,9 @@ h6 {
 }
 
 @media screen and (max-width: 480px) {
+    .owner {
+        width: 80%;
+    }
     .owner__wrap {
         flex-direction: column;
         align-items: flex-end;
